@@ -18,7 +18,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIO(server, {
   cors: {
-    origin: "https://chitchat-drab-ten.vercel.app/", 
+    origin: "https://chitchat-drab-ten.vercel.app", 
     methods: ["GET", "POST"],
     allowedHeaders: ["Authorization"],
     credentials: true,
